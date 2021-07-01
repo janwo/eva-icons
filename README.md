@@ -1,18 +1,22 @@
-<h1><img src="https://i.imgur.com/cXYo5bi.png"> Eva Icons</h1>
+<h1><img src="https://i.imgur.com/cXYo5bi.png">Eva Icons+</h1>
 <img src="https://i.imgur.com/oDmqDkE.jpg">
+
+
+> This repository updates the fantastic eva icon pack to integrate the new features and improvements of its respective project dependencies, e.g. an increased scoring at [Lighthouse Reports](https://github.com/GoogleChrome/lighthouse). No icons changed.
+
 
 **Eva Icons** is a pack of more than 480 beautifully crafted Open Source icons for common actions and items. Additionally, Eva Icons supports 4 animation types: `zoom`, `pulse`, `shake` and `flip`.  Download on desktop to use them in your digital products for Web, iOS and Android. Icons are provided in two visual types: `Fill` and `Outline` and in several formats, including `PNG`, `SVG`, `font`, `Sketch`, etc.
 
 ## Download
-- [Complete Eva Icons Package](https://akveo.github.io/eva-icons/eva-icons.zip)
-- [NPM Package](https://www.npmjs.com/package/eva-icons)
+- [Complete Eva Icons Package](https://janwo.github.io/eva-icons/eva-icons.zip)
+- [NPM Package](https://www.npmjs.com/package/eva-icons-plus)
 - you also can download icons one by one in `PNG` and `SVG` formats from [Eva Icons Website](https://akveo.github.io/eva-icons/?utm_campaign=eva_icons%20-%20home%20-%20eva_icons%20github%20readme&utm_source=eva_icons&utm_medium=referral&utm_content=github_readme_download_eva_icons).
 
 ### CDN
 
 Load from CDN in your project:
 ```html
-<script src="https://unpkg.com/eva-icons"></script>
+<script src="https://unpkg.com/eva-icons-plus"></script>
 ```
 After including the script, `eva` will be available as a global variable.
 
@@ -20,7 +24,7 @@ After including the script, `eva` will be available as a global variable.
 
 - Install the package:
 ```
-npm i eva-icons
+npm i eva-icons-plus
 ``` 
 
 - Include it to your page:
@@ -31,11 +35,11 @@ npm i eva-icons
 - Or require the package (may vary depending on your build system):
 
 ```js
-const eva = require('eva-icons');
+const eva = require('eva-icons-plus');
 ```
 
 ```js
-import * as eva from 'eva-icons';
+import * as eva from 'eva-icons-plus';
 ```
 
 ## How to use
