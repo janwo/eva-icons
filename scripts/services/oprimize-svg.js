@@ -4,23 +4,20 @@
  * Licensed under the MIT License. See License.txt in the project root for license information.
  */
 
-const Svgo = require('svgo');
+const { optimize, extendDefaultPlugins } = require('svgo');
 
 const defaultOptions = [
-  { convertShapeToPath: false },
-  { mergePaths: false },
-  { inlineStyles: { onlyMatchedOnce: false } },
-  { removeAttrs: { attrs: '(fill|stroke.*)' } },
-  { removeTitle: true },
+  { name: "convertShapeToPath", active: false },
+  { name: "mergePaths", active: false },
+  { name: "inlineStyles", params: { onlyMatchedOnce: false } },
+  { name: "removeAttrs", params: { attrs: '(fill|stroke.*)' } },
+  { name: "removeTitle", active: true }
 ];
 
 const optimizeSvg = (svg, options = []) => {
-  const svgo = new Svgo({
-    plugins: defaultOptions.concat(options),
-  });
-
-  return svgo.optimize(svg)
-    .then(({ data }) => data );
+  return optimize(svg, {
+    plugins: extendDefaultPlugins(defaultOptions.concat(options))
+  })
 };
 
 module.exports = optimizeSvg;

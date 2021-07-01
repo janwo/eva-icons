@@ -25,10 +25,8 @@ const prepareSVGsForFonts = () => {
         const desSvgPath = path.join(destPath, filesName);
         const svg = fs.readFileSync(svgFile);
 
-        return optimizeSvg(svg)
-          .then((processedSvg) => {
-            fs.writeFileSync(desSvgPath, processedSvg);
-          });
+        const processedSvg = optimizeSvg(svg)
+        fs.writeFileSync(desSvgPath, processedSvg.data);
       }));
     });
 };
