@@ -7,7 +7,7 @@
 **Eva Icons** is a pack of more than 480 beautifully crafted Open Source icons for common actions and items. Additionally, Eva Icons supports 4 animation types: `zoom`, `pulse`, `shake` and `flip`.  Download on desktop to use them in your digital products for Web, iOS and Android. Icons are provided in two visual types: `Fill` and `Outline` and in several formats, including `PNG`, `SVG`, `font`, `Sketch`, etc.
 
 ## Download
-- [Complete Eva Icons Package](https://janwo.github.io/eva-icons/eva-icons.zip)
+- [Complete Eva Icons Package](https://janwo.github.io/eva-icons-plus/eva-icons.zip)
 - [NPM Package](https://www.npmjs.com/package/eva-icons-plus)
 - you also can download icons one by one in `PNG` and `SVG` formats from [Eva Icons Website](https://akveo.github.io/eva-icons/?utm_campaign=eva_icons%20-%20home%20-%20eva_icons%20github%20readme&utm_source=eva_icons&utm_medium=referral&utm_content=github_readme_download_eva_icons).
 
